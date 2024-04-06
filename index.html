@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Centauros</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091f9">
+    <meta name="tittle" content="Mi primer proyecto CSS">
+
+        <!-- Primary Meta Tags -->
+    <title>Aprendiendo CSS desde cero</title>
+    <meta name="title" content="Solicitudes Tarjeta de Credito" />
+    <meta name="description" content="Banco Centauros" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="www.juansocampoc.com" />
+    <meta property="og:title" content="Aprendiendo CSS desde cero" />
+    <meta property="og:description" content="Primero proyecto del curso CSS" />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="www.juansocampoc.com" />
+    <meta property="twitter:title" content="Aprendiendo CSS desde cero" />
+    <meta property="twitter:description" content="Primero proyecto del curso CSS" />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav container">
+
+            <div class="nav_logo">
+                <h2 class="nav_tittle">Bienvenidos a su Banco
+                </h2>
+            </div>
+
+            <ul class="nav_link nav_link--menu">
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Inicio
+                    </a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Productos y Servicios
+                    </a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Simuladores Credito
+                    </a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Contactenos
+                    </a>
+                </li>
+
+                <img src="./images/close.svg" class="nav_close" alt="Desarrollo web">
+            </ul>
+
+            <div class="nav_menu">
+                <img src="./images/menu.svg" class="nav_img" alt="Pagina web">
+            </div>
+
+        </nav>
+
+        <section class="hero_container container">
+            <h1 class="hero_tittle">Banco Centauros 
+            </h1>
+
+            <p class="hero_paragraph">Aqui encontrara el formulario para <br> las solicitudes de Tarjeta de Credito de nuestro Banco
+            </p>
+
+            <a href="#" class="cta">Comienza ahora
+            </a>
+
+            
+        </section>
+
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">Inicia tu Solicitud
+            </h2>
+            <p class="about_paragraph">
+                <form id="crud-form">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" required><br>
+                    <label for="age">Edad:</label>
+                    <input type="number" id="age" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required><br>
+                    <label for="address">Dirección:</label>
+                    <input type="text" id="address" required><br>
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" id="phone" required><br>
+                    <button type="submit">Agregar</button>
+                  </form>
+                  
+            </p>
+
+            <div id="crud-table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Edad</th>
+                      <th>Email</th>
+                      <th>Dirección</th>
+                      <th>Teléfono</th>
+                      <th>Acciones</th>
+                    </tr>
+                  </thead>
+                  <tbody id="table-body">
+                    
+                  </tbody>
+                </table>
+              </div>
+            
+              <script src="javascript.js"></script>
+
+            <div class="about_main">
+                
+                             
+            </div>
+        </section>
+
+       
+
+       
+
+        <section class="testimony">
+            <div class="testimony_container container">
+                
+                <section class="testimony_body testimony_body--show" data-id="1">
+                    <div class="textimony_texts">
+                        <h2 class="subtitle">Mi nombre es Juan Sebastian
+                        <span class="testimony_course"> CEO del Banco Centauros
+                        </span>
+                        </h2>
+                        <p class="testimony_review">Ingeniero Industrial <br> Especialista Sistemas Gerenciales de Ingeneria <br>Estudiante Ingenieria de Sistemas
+                        </p>
+                    </div>
+
+                    <figure class="testimony_picture">
+                        <img src="./images/Foto Cara.jpg" alt="" class="testimony_img">
+                    </figure>
+                </section>
+               
+        </section>
+
+       
+       
+    </main>
+
+    <footer class="footer">
+        <section class="footer_container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_tittle">Banco Centauros
+                </h2>
+                <ul class="nav_link nav_link--footer">
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Inicio
+                        </a>
+                    </li>
+    
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Productos y Servicios
+                        </a>
+                    </li>
+    
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Simuladores Credito
+                        </a>
+                    </li>
+    
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Contactenos
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <form class="footer_form" action="https://formspree.io/f/xvojyvoz"
+            method="POST">
+                <h2 class="footer_newsletter">Suscribete a la newsletter
+                </h2>
+                <div class="footer_inputs">
+                    <input type="email" placeholder="email" class="footer_input" name="email">
+                    <input type="submit" value="Registrate" class="footer_submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="#" class="footer_icons">
+                    <img src="./images/facebook.svg" alt="" class="footer_img">
+                </a>
+                <a href="#" class="footer_icons">
+                    <img src="./images/twitter.svg" alt="" class="footer_img">
+                </a>
+                <a href="#" class="footer_icons">
+                    <img src="./images/youtube.svg" alt="" class="footer_img">
+                </a>
+            </div>
+
+            <h3 class="footer_copyright">Derechos Reservados &copy; Juan Sebastian Ocampo
+            </h3>
+
+
+        </section>
+
+
+
+
+    </footer>
+
+    <script src="./js/slider.js">
+    </script>
+
+    <script src="./js/questions.js">
+    </script>
+
+    <script src="./js/menu.js">
+    </script>
+    
+</body>
+</html>
